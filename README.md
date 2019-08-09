@@ -44,10 +44,10 @@ Demo演示效果请移步[Demo](http://demo.jiaminghi.com/#/audioFft)
 
 ```javascript
 /**
- * @description Class of AudioFft
- * @param {Object} canvas Canvas DOM
- * @param {Object} config configuration
- * @return {AudioFft} AudioFft Instance
+ * @description Class AudioFft
+ * @param {Object} canvas Canvas 实例
+ * @param {Object} config 配置项
+ * @return {AudioFft} AudioFft实例
  */
 export default class AudioFft {
     //...
@@ -68,6 +68,7 @@ export default class AudioFft {
 * [columnGap](#columnGap)
 * [columnWidth](#columnWidth)
 * [swingScale](#swingScale)
+
 #### analyserFFT
 
 ```javascript
