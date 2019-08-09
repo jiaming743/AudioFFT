@@ -10,8 +10,7 @@
   },
   "scripts": {
     "compile": "babel -d lib/ src/",
-    "prepublish": "npm run compile",
-    "test": "mocha"
+    "prepublish": "npm run compile"
   },
   "license": "MIT",
   "bugs": {
@@ -20,19 +19,20 @@
   "keywords": [
     "audio",
     "fft",
-    "frequency"
+    "frequency",
+    "canvas"
   ],
   "homepage": "https://github.com/jiaming743/AudioFft#readme",
   "devDependencies": {
     "@babel/cli": "^7.4.4",
     "@babel/core": "^7.4.5",
     "@babel/preset-env": "^7.4.5",
-    "@babel/register": "^7.4.4",
-    "chai": "^4.2.0",
-    "mocha": "^6.1.4"
+    "@babel/register": "^7.4.4"
   },
   "dependencies": {
     "@babel/polyfill": "^7.4.4",
+    "@jiaminghi/bezier-curve": "0.0.6",
+    "@jiaminghi/color": "^0.1.0",
     "core-js": "^3.1.4"
   }
 }
