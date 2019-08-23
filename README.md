@@ -31,7 +31,24 @@ const fft = new AudioFFT(canvas, {
 fft.setAudio(audio)
 fft.draw()
 ```
+
+### 快速体验
+
+```html
+<!--资源位于个人服务器仅供体验和测试，请勿在生产环境使用-->
+<!--调试版-->
+<script src="http://lib.jiaminghi.com/audiofft/audiofft.map.js"></script>
+<!--压缩版-->
+<script src="http://lib.jiaminghi.com/audiofft/audiofft.min.js"></script>
+<script>
+  const fft = new AudioFFT(params)
+  // do something
+</script>
+```
+
 Demo演示效果请移步[Demo](http://demo.jiaminghi.com/#/audioFft)
+
+**Tip:** 建议使用Chrome浏览器查看Demo，如果Demo没有绘制频谱并抛错`The AudioContext was not allowed to start`，地址栏中输入**chrome://flags/#autoplay-policy**，将`Default`换成`No user gesture is required`，即可正常查看Demo。
 
 * [Class AudioFFT](#Class-AudioFFT)
 * [示例](#示例)

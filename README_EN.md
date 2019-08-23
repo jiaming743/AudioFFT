@@ -31,7 +31,24 @@ const fft = new AudioFFT(canvas, {
 fft.setAudio(audio)
 fft.draw()
 ```
+
+### Quick experience
+
+```html
+<!--Resources are located on personal servers for experience and testing only, do not use in production environments-->
+<!--Debug version-->
+<script src="http://lib.jiaminghi.com/audiofft/audiofft.map.js"></script>
+<!--Compression version-->
+<script src="http://lib.jiaminghi.com/audiofft/audiofft.min.js"></script>
+<script>
+  const fft = new AudioFFT(params)
+  // do something
+</script>
+```
+
 Demo demo effect please move[Demo](http://demo.jiaminghi.com/#/audioFft)
+
+**Tip:** Recommended to use the Chrome browser to view the Demo, if the Demo does not draw the spectrum and throw the error `AudioContext does not allow to start `, enter **chrome://flags/#autoplay-policy** in the address bar, change `Default` to `No user gesture is required` to view the Demo normally.
 
 * [Class AudioFFT](#Class-AudioFFT)
 * [Examples](#Examples)
