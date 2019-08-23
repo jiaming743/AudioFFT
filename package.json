@@ -6,15 +6,16 @@
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jiaming743/AudioFft.git"
+    "url": "https://github.com/jiaming743/AudioFFT.git"
   },
   "scripts": {
-    "compile": "babel -d lib/ src/",
-    "prepublish": "npm run compile"
+    "build": "node build/index.js",
+    "deploy": "node deploy/index.js",
+    "prepublish": "npm run build"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jiaming743/AudioFft/issues"
+    "url": "https://github.com/jiaming743/AudioFFT/issues"
   },
   "keywords": [
     "audio",
@@ -27,7 +28,9 @@
     "@babel/cli": "^7.4.4",
     "@babel/core": "^7.4.5",
     "@babel/preset-env": "^7.4.5",
-    "@babel/register": "^7.4.4"
+    "@babel/register": "^7.4.4",
+    "@jiaminghi/fs": "0.0.2",
+    "ftp": "^0.3.10"
   },
   "dependencies": {
     "@babel/polyfill": "^7.4.4",
