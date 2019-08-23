@@ -1,7 +1,0 @@
-src/
-test/
-
-.babelrc
-.travis.yml
-.gitignore
-package-lock.json
